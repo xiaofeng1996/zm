@@ -1,0 +1,70 @@
+.lkDialog-title {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.lkDialog-title .t1 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.band-aid {
+    width: 420px;
+    background: #FEEAA1;
+    padding: 0px 10px;
+    height: 70px;
+    text-align: center;
+    border-radius: 34px;
+    margin: 0 auto;
+}
+
+.band-aid .band-aid-wrap {
+    position: relative;
+    top: 6px;
+    color: #714D00;
+    border: 2px dotted #F5AB28;
+    height: 55.6px;
+    border-radius: 34px;
+    padding-top: 7px;
+}
+
+.lucky-pick {
+    width: 375px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.lucky-pick .pick-title {
+    color: #714D00;
+    float: left;
+    position: relative;
+    top: 10px;
+}
+
+.lucky-pick .pick-content {
+    float: left;
+}
+
+.lucky-pick .pick-content a {
+    cursor: pointer;
+}
+
+.lucky-pick .pick-content a:hover {
+    color: #a307cd;
+}
+
+.lucky-pick .pick-content .icon-win-number {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background: #fff;
+    font-size: 24px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.lucky-pick .pick-content .icon-win-number.selected {
+    background: #a307cd;
+    border: 1px solid #a307cd;
+    color: #fff;
+}

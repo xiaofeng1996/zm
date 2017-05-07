@@ -1,0 +1,27 @@
+ul.notify-list{
+
+}
+ul.notify-list li{
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+    padding-top:10px;
+    border-bottom: 1px solid #EBDBC4;
+}
+ul.notify-list li .notify-title{
+    margin-top: 12px;
+    margin-left: 25px;
+    line-height: 25px;
+    color:#714D00;
+}
+ul.notify-list li .notify-time{
+    margin-top: 12px;
+    margin-left: 25px;
+    line-height: 25px;
+    color:#714D00;
+}
+
+ul.notify-list li .notify-time a{
+    text-decoration:underline;
+    text-align: right;
+    color:#C15BD3;
+}

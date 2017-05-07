@@ -1,0 +1,17 @@
+#get-verify-code {
+    cursor: pointer;
+}
+
+.address-select {
+    width: 106px;
+    height: 40px;
+    margin-left: 5px;
+    text-align: center;
+    border: 1px solid #1F2D3D;
+}
+
+.reg-err-msg {
+    color: #FF4949;
+    margin-top: -20px;
+    font-size: 12px;
+}

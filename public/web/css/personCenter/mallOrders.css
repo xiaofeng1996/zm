@@ -1,0 +1,123 @@
+
+.order-filter {
+
+}
+
+.order-filter ul {
+    border: 1px solid #A56E2B;
+}
+
+.order-filter ul li {
+    float: left;
+}
+
+.order-filter ul li a {
+    padding: 15px 44px;
+    color: #A56E2B;
+}
+
+.order-filter ul li.selected {
+
+}
+
+.order-filter ul li.selected a {
+    background: #8320A8;
+    color: #FFFFFF;
+}
+
+table.order-detail {
+    width: 100%;
+    color:#A56E2D;
+}
+
+table.order-detail {
+    margin-top:20px;
+}
+
+table.order-detail thead {
+
+}
+
+table.order-detail thead tr {
+    border: 1px solid #DCC9B0;
+}
+
+table.order-detail thead tr td {
+
+    padding: 17px 21px;
+
+}
+
+table.order-detail tbody {
+    border: 1px solid #DCC9B0;
+}
+
+table.order-detail tbody tr td {
+
+}
+
+table.order-detail tbody .item-con1 {
+     width: 65%;
+     height: 150px;
+    border: 1px solid #DCC9B0;
+    padding-left:17px;
+    padding-right: 17px;
+ }
+table.order-detail tbody .item-con1 img{
+   width:92px;
+    height:78px;
+}
+table.order-detail tbody .item-con1 .order-title{
+    width:195px;
+    margin-left:25px;
+    margin-right: 75px;
+}
+
+table.order-detail tbody .item-con2 {
+    width: 17.5%;
+    text-align: center;
+    border: 1px solid #DCC9B0;
+}
+
+table.order-detail tbody .item-con3 {
+    width: 17.5%;
+    text-align: center;;
+    border: 1px solid #DCC9B0;
+}
+table.order-detail tbody .item-con3 a{
+    text-decoration: underline;
+    margin-left: 21%;
+    margin-right: 21%;
+}
+table.order-detail tbody .item-con3 .btn-purple{
+    padding:4px 15px;
+    background: #A307CD;
+    color:#fff;
+    border:1px solid #A307CD;
+    text-decoration:none;
+    margin-bottom: 13px;
+}
+table.order-detail tbody .item-con3 .btn-white{
+    padding:4px 15px;
+    background: #fff;
+    color:#A307CD;
+    border:1px solid #A307CD;
+    text-decoration:none;
+    margin-bottom:13px;
+}
+
+table.order-detail tfoot.winning-footer{
+    border: 1px solid #DCC9B0;
+}
+
+table.order-detail tfoot.winning-footer tr{
+
+}
+
+table.order-detail tfoot.winning-footer td{
+    padding:17px 50px 17px 17px;
+}
+
+table.order-detail tfoot.winning-footer td .icon-win-number{
+    margin-right: 11.5px;
+}

@@ -1,0 +1,23 @@
+#about-us{
+    background-color:#A56E2B;
+    padding:18px 20px;
+    color:#A56E2B;
+    margin-bottom: 125px;
+}
+#about-us .au-wrap{
+    position:relative;
+    background-color:#FDF2DC;
+    padding: 20px;
+}
+
+#about-us .au-head{
+    border-bottom: 1px solid #A56E2B;
+    padding-bottom: 10px;
+    padding-left: 4px;
+    margin-bottom: 20px;
+}
+
+#about-us .au-wrap .au-con p{
+    margin-bottom: 35px;
+    line-height: 25px;
+}

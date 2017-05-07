@@ -1,0 +1,615 @@
+
+body {
+    color: #7F5C17;
+}
+
+table {
+    color: #7F5C17;
+}
+
+.order-header {
+    width: 100%;
+    border: 1px solid #F0E2CA;
+    margin-bottom: 15px;
+}
+
+.order-header tbody tr td {
+    padding: 15px 20px;
+}
+
+.order-header tbody tr td.con1 {
+    width: 50%;
+    padding-left: 20px;
+}
+
+.order-header tbody tr td.con2 {
+    width: 15%;
+    text-align: center;
+}
+
+.order-header tbody tr td.con3 {
+    width: 15%;
+    text-align: center;
+}
+
+.order-header tbody tr td.con4 {
+    width: 20%;
+    padding-right: 50px;
+    text-align: right;
+}
+
+.order-status {
+    border: 1px solid #F0E2CA;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.order-status thead tr {
+    border: 1px solid #F0E2CA;
+}
+
+.order-status thead tr td {
+    padding: 10px 20px;
+    padding-right: 40px;
+}
+
+.order-status tbody tr {
+    padding: 40px 35px 40px 25px;
+}
+
+.order-status tbody .order-title {
+    margin-left: 20px;
+}
+
+.order-status tbody tr td.con1 {
+    width: 50%;
+    padding-left: 20px;
+}
+
+.order-status tbody tr td.con2 {
+    width: 15%;
+    text-align: center;
+}
+
+.order-status tbody tr td.con3 {
+    width: 15%;
+    text-align: center;
+}
+
+.order-status tbody tr td.con4 {
+    width: 20%;
+    text-align: right;
+    padding-right: 40px;
+}
+
+.order-status tbody tr td {
+    padding: 20px 20px;
+}
+
+.win-info {
+    border: 1px solid #F0E2CA;
+    width: 100%;
+}
+
+.win-info .icon-win-number {
+    margin-right: 12px;
+}
+
+.win-info thead tr {
+    border: 1px solid #F0E2CA;
+}
+
+.win-info thead tr td {
+    padding: 15px 20px;
+}
+
+.win-info tbody tr {
+    padding: 40px 35px 40px 25px;
+}
+
+.win-info tbody tr td {
+    padding: 20px 35px 20px 25px;
+}
+
+.order-info {
+    border: 1px solid #F0E2CA;
+    color: #7F5C17;
+    width: 100%;
+}
+
+.order-info tbody tr td .con {
+    /*padding:15px;*/
+}
+
+.order-info tbody tr td.t1 {
+    width: 60%;
+    /*border-right:2px solid #F0E2CA;*/
+    /*padding:15px;*/
+    padding: 25px;
+}
+
+.order-info tbody tr td.t1 .con {
+    border-right: 2px solid #F0E2CA;
+}
+
+.order-info tbody tr td.t2 {
+    width: 40%;
+    padding: 15px;
+}
+
+.order-info tbody tr td .con .purple-btn {
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.order-info tbody tr td .con .link {
+    display: inline-block;
+    text-decoration: underline;
+    font-weight: bold;
+    color: #714D00;
+    margin: 0 5px;
+}
+
+table.order-list {
+    border: 1px solid #F0E2CA;
+    margin-top: 18px;
+    width: 100%;
+}
+
+table.order-list thead {
+
+}
+
+table.order-list thead tr {
+
+}
+
+table.order-list thead td {
+    padding: 15px 20px;
+}
+
+table.order-list thead td .purple-btn2 {
+    width: 80px;
+    height: 35px;
+    margin: 0;
+    line-height: 35px;
+}
+
+table.order-list tbody tr {
+    border: 1px solid #F0E2CA;
+}
+
+table.order-list tbody tr td {
+    padding: 40px 35px 40px 25px;
+    border: 1px solid #F0E2CA;
+}
+
+table.order-list tbody tr td.con1 {
+    width: 70%;
+}
+
+table.order-list tbody tr td.con2 {
+    width: 30%;
+    text-align: right;
+}
+
+table.order-list tbody tr td.con1 img {
+    width: 92px;
+    height: 78px;
+}
+
+table.order-list tbody tr td.con1 .order-title {
+    width: 195px;
+    margin-left: 25px;
+    margin-right: 75px;
+}
+
+table.order-list tbody tr td.con2 a {
+    border: 1px solid #A307CD;
+    color: #A307CD;
+    padding: 5px 10px;
+    display: inline-block;
+    border-radius: 2px;
+}
+
+table.order-list tfoot tr td.remark-con {
+    font-size: 12px;
+    display: inline-block;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+table.order-list tfoot tr td.total-con {
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+table.order-list.white-style thead {
+    background: #FDF2DC;
+}
+
+table.lucky-list.white-style tbody tr {
+    background: #fff;
+}
+
+table.lucky-list.white-style tfoot tr {
+    background: #fff;
+}
+
+table.lucky-list {
+    border: 1px solid #F0E2CA;
+    width: 100%;
+}
+
+table.lucky-list thead {
+
+}
+
+table.lucky-list thead tr {
+
+}
+
+table.lucky-list thead td {
+    padding: 10px 20px;
+}
+
+table.lucky-list thead td .title-with-btn {
+    line-height: 35px;
+}
+
+table.lucky-list thead td .purple-btn2 {
+    width: 80px;
+    height: 35px;
+    margin: 0;
+    line-height: 35px;
+}
+
+table.lucky-list tbody tr {
+    border: 1px solid #F0E2CA;
+}
+
+table.lucky-list tbody tr td {
+    padding: 17px 25px;
+    border: 1px solid #F0E2CA;
+}
+
+table.lucky-list tbody tr td.con1 {
+    width: 70%;
+    border-right: none;
+}
+
+table.lucky-list tbody tr td.con2 {
+    width: 30%;
+    text-align: right;
+    border-left: none;
+}
+
+table.lucky-list tbody tr td.con1 img {
+    width: 92px;
+    height: 78px;
+}
+
+table.lucky-list tbody tr td.con1 .order-title {
+    width: 195px;
+    margin-left: 25px;
+    margin-right: 75px;
+}
+
+table.lucky-list tbody tr td.con2 a {
+    /*border: 1px solid #A307CD;*/
+    color: #A56E2D;
+    padding: 5px 10px;
+    display: inline-block;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+table.lucky-list tfoot tr td.remark-con {
+    font-size: 12px;
+    display: inline-block;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+table.lucky-list tfoot tr td.total-con {
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+table.lucky-list.white-style thead {
+    background: #FDF2DC;
+}
+
+table.lucky-list.white-style tbody tr {
+    background: #fff;
+}
+
+table.lucky-list.white-style tfoot tr {
+    background: #fff;
+}
+
+table.lucky-list tfoot tr td.add-lucky {
+    padding: 17px 25px;
+}
+table.lucky-list tfoot tr td.add-lucky a{
+    cursor:pointer;
+    color:#a307cd;
+    font-size:15px;
+}
+table.lucky-list tfoot tr td.add-lucky a:hover{
+    color:#a307cd;
+}
+
+.person-content .person-body {
+    padding-bottom: 80px;
+}
+
+.product-list {
+    padding: 13.5px;
+}
+
+.product-list .product-item {
+    padding: 0;
+    background: #fff;
+}
+
+.product-list .product-item:nth-child(1) .pc-wrap {
+    border-left: 1px solid #a307cd;
+}
+
+.product-list .product-item .pc-wrap {
+    border-top: 1px solid #a307cd;
+    border-bottom: 1px solid #a307cd;
+    border-right: 1px solid #a307cd;
+    border-left: 1px solid transparent;
+    position: relative;
+    padding: 8px;
+}
+
+.product-list .product-item .pc-wrap .pc-img {
+    position: relative;
+}
+
+.product-list .pc-wrap .pc-img .pc-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.product-list .pc-wrap .pc-img .heart-solid {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: url(../../images/solid.png) no-repeat;
+    width: 20px;
+    height: 18px;
+}
+
+.product-list .pc-wrap .pc-img .heart-selected {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: url(../../images/hollow.png) no-repeat;
+    width: 20px;
+    height: 18px;
+}
+
+.product-list .product-item .pc-wrap .pc-img img {
+    width: 100%;
+}
+
+.product-list .pc-wrap .pc-title {
+    color: #A56E2B;
+    font-size: 14px;
+    margin-top: 9px;
+}
+
+.product-list .pc-wrap .pc-price {
+    color: #A307CD;
+    font-size: 21px;
+}
+
+.personal-content.product-list-content {
+    padding: 0;
+    background: transparent;
+}
+
+.personal-content.product-list-content .personal-wrap {
+    background: #A56E2B;
+    padding: 15px;
+}
+
+table.account-title {
+    width: 100%;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+table.account-title tbody {
+
+}
+
+table.account-title tbody tr td:nth-child(1) {
+    width: 80%;
+}
+
+table.account-title tbody tr td:nth-child(2) {
+    width: 20%;
+    padding-left: 43px;
+
+}
+
+table.account-title tbody tr td {
+
+}
+
+table.record-list {
+    width: 100%;
+}
+
+table.record-list tbody {
+
+}
+
+table.record-list tr {
+    border-top: 1px solid #DCC9B0;
+}
+
+table.record-list tbody tr td {
+    padding: 19px 0 22px 0;
+}
+
+table.record-list tbody tr td:nth-child(1) {
+    text-align: left;
+}
+
+table.record-list tbody tr td:nth-child(2) {
+    text-align: right;
+}
+
+.person-body .cash-title {
+    padding: 12px 0px 17px 0;
+}
+
+.person-body .cash-form-box {
+    margin-top: 29px;
+    margin-bottom: 37px;
+}
+
+.cash-form-box form {
+    margin-top: 50px;
+}
+
+.cash-form-box form input[type="text"], .cash-form-box form input[type="password"] {
+    border: 1px solid #DCC9B0;
+    padding: 9px 11px;
+    height: 35px;
+}
+
+.cash-form-box form label {
+    width: 90px;
+    line-height: 35px;
+}
+
+.cash-form-box form .input-link {
+    line-height: 35px;
+    text-decoration: underline;
+    margin-left: 15px;
+    color: #94753A;
+}
+
+.pay-nav {
+
+}
+
+.pay-nav ul {
+
+}
+
+.pay-nav ul li {
+    float: left;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+.pay-nav .pay-type-zfb {
+    background: url("../../images/pay_type_zfb.jpg") no-repeat;
+    width: 203px;
+    height: 78px;
+    position: relative;
+}
+
+.pay-nav .pay-type-yl {
+    background: url("../../images/pay_type_yl.jpg") no-repeat;
+    width: 203px;
+    height: 78px;
+    position: relative;
+}
+
+.pay-nav .pay-radio {
+    width: 23px;
+    height: 23px;
+    border: 1px solid #8320A8;
+    border-radius: 50%;
+    position: absolute;
+    left: 15px;
+    top: 28px;
+    cursor: pointer;
+}
+
+.pay-nav ul li.selected .pay-radio .pip {
+    background: #8320A8;
+    display: inline-block;
+    position: relative;
+    top: 2px;
+    left: 4px;
+}
+
+.pay-nav .pay-radio .pip {
+    border-radius: 50%;
+    width: 13px;
+    height: 13px;
+}
+
+.account-input {
+
+}
+
+.account-input .text-icon {
+    position: absolute;
+    left: 8px;
+    top: 5px;
+    width: 29px;
+    height: 25px;
+}
+
+.account-input input {
+    width: 400px;
+    padding-left: 45px !important;
+    padding-right: 65px !important;
+}
+
+.account-input .text-link {
+    position: absolute;
+    right: 23px;
+    top: 7px;
+    color: #714D00;
+}
+
+.account-input .text-link .glyphicon {
+    transform: rotate(90deg);
+    top: 1.7px;
+    left: 13px;
+    font-size: 10px;
+}
+
+.input-text-width {
+    width: 320px;
+}
+
+.input-text-width-lg {
+    width: 400px;
+}
+
+.verification-input {
+    position: relative;
+}
+
+.verification-input input {
+    padding-right: 100px !important;
+}
+
+.verification-input a {
+    position: absolute;
+    right: 8px;
+    top: 7px;
+}
+

@@ -1,0 +1,60 @@
+
+#personInfo{
+    padding-bottom: 50px;
+}
+#personInfo .portrait-item{
+    height:107px;
+    margin-top: 50px;
+}
+#personInfo .portrait-item .item-label{
+    line-height:107px;
+}
+#personInfo .portrait-item .person-portrait{
+
+}
+#personInfo .portrait-item .person-portrait img{
+    width:107px;
+    height:107px;
+    border-radius: 50%;
+}
+#personInfo .nickname-item{
+    margin-top:50px;
+}
+#personInfo .nickname-item .item-label{
+    line-height: 38px;
+}
+#personInfo .nickname-item input{
+    width: 90%;
+    padding: 7px 7px;
+    color:#957843;
+}
+#personInfoSubmit{
+    margin-top: 50px;
+    margin-left: 0;
+    width: 100px;
+}
+#accountSafe{
+    padding-top: 35px;
+    padding-bottom: 56px
+}
+#accountSafe .item-label{
+    padding: 7px 0;
+}
+
+#accountSafe .form-item{
+    margin-top:30px;
+}
+#accountSafe .form-item input{
+    width: 90%;
+    padding: 7px 7px;
+    height:38px;
+    color:#957843;
+}
+#accountSafeSubmit{
+    margin-top: 50px;
+    margin-left: 0;
+    width: 100px;
+}
+#content{
+    padding-bottom:170px;
+}

@@ -1,0 +1,131 @@
+.order-info{
+    padding:30px;
+    border:1px solid #DCC9B0;
+    color:#A56E2B;
+}
+
+table.order-item{
+    border:1px solid #DCC9B0;
+    width:100%;
+    color:#7A5322;
+    margin-top:35px;
+}
+table.order-item tbody tr td{
+    /*padding:55px 50px;*/
+    padding:25px;
+    border:1px solid #DCC9B0;
+}
+table.order-item .t1{
+    width:65%;
+}
+table.order-item .t1 img{
+    width:92px;
+    height:78px;
+}
+table.order-item .t1 .order-title{
+    margin-left:20px;
+    margin-right:80px;
+}
+table.order-item .t2{
+    text-align: center;
+    width:15%;
+}
+table.order-item .t3{
+    text-align: center;
+    width:20%;
+}
+
+.order-form{
+    padding:20px;
+    margin-top:20px;
+}
+.order-form .form-group{
+
+}
+.order-form .form-group .form-radio{
+    float:left;
+}
+.order-form #submit{
+    width:83px;
+    height:35px;
+    line-height: 35px;
+    margin-left:0;
+    margin-top: 35px;
+}
+
+.form-radio{
+    position:relative;
+    padding: 0 0 18px 30px;
+    margin-right:97px;
+    cursor: pointer;
+}
+.form-radio label{
+    position: relative;
+    top:2px;
+    cursor: pointer;
+}
+.person-radio{
+    width:23px;
+    height:23px;
+    border:1px solid #8320A8;
+    border-radius: 50%;
+    position:absolute;
+    left:0;
+    top:0;
+    cursor: pointer;
+}
+
+.person-radio .pip{
+    border-radius: 50%;
+    width:13px;
+    height:13px;
+}
+.person-radio.on .pip{
+    background: #8320A8;
+    display: inline-block;
+    position: relative;
+    top:2px;
+    left:4px;
+}
+
+.person-radio input{
+    opacity: 0;
+    position: absolute;
+    left: 3px;
+    top: 1px;
+    cursor: pointer;
+}
+
+.apply-area{
+    width: 680px;
+    height: 162px;
+    border: 1px solid #613415;
+    padding: 20px;
+    resize: none;
+    background: #FDF2DC;
+}
+
+.order-form .form-group .btn-upload-img{
+    float: left;
+    margin-right:10px;
+    padding-top:0;
+    margin-top:30px;
+}
+.order-form .form-group .btn-upload-img img{
+    width: 82px;
+    height: 82px;
+    position: absolute;
+    top: 0;
+    border:1px solid  #613415;
+    border-radius: 2px;
+}
+.order-form .form-group .btn-upload-img label{
+    border-color: #613415;
+    color: #613415;
+    font-weight: 100;
+    /*padding: 25px 10px;*/
+    line-height: 82px;
+    width:82px;
+    height:82px;
+    opacity: 0;
+}

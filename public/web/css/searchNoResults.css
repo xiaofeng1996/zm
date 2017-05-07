@@ -1,0 +1,14 @@
+#content .no-search {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#content .no-search img {
+
+}
+
+#content .no-search p {
+    font-size: 18px;
+    margin-top: 20px;
+}

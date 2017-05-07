@@ -1,0 +1,73 @@
+
+.order-info{
+    border:1px solid #F0E2CA;
+    color:#7F5C17;
+    width:100%;
+}
+.order-info tbody tr td .con{
+    /*padding:15px;*/
+}
+.order-info tbody tr td.t1{
+    width:60%;
+    /*border-right:2px solid #F0E2CA;*/
+    padding:15px;
+}
+.order-info tbody tr td.t1 .con{
+    border-right: 2px solid #F0E2CA;
+}
+
+.order-info tbody tr  td.t2{
+    width:40%;
+    padding:15px;
+}
+
+table.order-list{
+    border:1px solid #F0E2CA;
+    margin-top:18px;
+    width:100%;
+}
+
+table.order-list thead{
+
+}
+
+table.order-list thead tr{
+
+}
+
+table.order-list thead td{
+    padding:15px 20px;
+}
+table.order-list tbody tr{
+    border:1px solid #F0E2CA;
+}
+table.order-list tbody tr td{
+    padding:40px 35px 40px 25px;
+}
+table.order-list tbody tr td.con1{
+    width:70%;
+}
+table.order-list tbody tr td.con2{
+    width:30%;
+    text-align: right;
+}
+table.order-list tbody tr td.con1 img{
+    width:92px;
+    height:78px;
+}
+table.order-list tbody tr td.con1 .order-title{
+    width:195px;
+    margin-left:25px;
+    margin-right: 75px;
+}
+
+table.order-list tbody tr td.con2 a{
+    border:1px solid #A307CD;
+    color:#A307CD;
+    padding:3px 5px;
+    display: inline-block;
+    border-radius: 2px;
+}
+.person-content .person-body{
+    padding-bottom: 80px;
+}

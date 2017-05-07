@@ -1,0 +1,324 @@
+#product-info {
+    background-color: #fff;
+    /*padding: 27px 30px 30px 30px;*/
+    padding: 27px 0;
+    /*float: left;*/
+    border: 1px solid #A56E2D;
+}
+
+#product-info .pi-wrap {
+    position: relative;
+}
+
+#product-info .pi-wrap .pi-con {
+
+}
+
+#product-info .pi-wrap .pi-con .pc-img {
+    float: left;
+    position: relative;
+}
+
+#product-info .pi-wrap .pi-con .pci-b-img {
+
+}
+
+#product-info .pi-wrap .pi-con .pci-b-img img {
+    border: 1px solid #F2F2F2;
+    /*width: 399px;*/
+    /*height: 400px;*/
+    width: 100%;
+    height: 405px;
+}
+
+#product-info .pi-wrap .pi-con .pci-sm-img {
+
+}
+
+#product-info .pi-wrap .pi-con .pci-sm-img .pci-sm-img {
+
+}
+
+#product-info .pi-wrap .pi-con .pci-sm-img .psi-con ul {
+    margin-top: 20px;
+}
+
+#product-info .pi-wrap .pi-con .pci-sm-img .psi-con ul li {
+    float: left;
+    margin-left: 9px;
+}
+
+#product-info .pi-wrap .pi-con .pci-sm-img .psi-con ul li a {
+    border: 1px solid #fff;
+}
+
+#product-info .pi-wrap .pi-con .pci-sm-img .psi-con ul li:hover a {
+    border: 1px solid #FF8B00;
+}
+
+#product-info .pi-wrap .pi-con .pci-sm-img .psi-con ul li a img {
+    width: 58px;
+}
+
+#product-info .pi-wrap .pi-con .pc-info {
+    float: left;
+}
+
+#product-info .pi-wrap .pi-con .pc-entrance {
+    /*float: left;*/
+}
+
+#product-info .pi-wrap .pi-con .pc-entrance .pce-box {
+    border: 1px solid #DFDFDF;
+    padding: 28px 50px 40px 50px;
+    text-align: center;
+}
+
+#product-info .pi-wrap .pi-con .pc-entrance .pce-box .pce-btn {
+    background-color: #A454B9;
+    color: #fff;
+    border: 1px solid #5C0B7B;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    padding: 5px 0;
+    margin-top: 20px;
+}
+
+#product-info #collection-product {
+    margin-top: 7px;
+    margin-left: 17px;
+    color: #595959;
+    cursor:pointer;
+}
+
+#product-info .pi-con > .pc-info {
+    /*float: left;*/
+    /*width: 425px;*/
+    /*margin-left: 20px;*/
+}
+
+#product-info .pi-con > .pc-info .pi-title {
+    font-size: 20px;
+    color: #714D00;
+    font-weight: bold;
+}
+
+#product-info .pi-con > .pc-info .p-panel {
+    background-color: #FCEFFF;
+    padding: 10px 15px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+#product-info .pi-con > .pc-info dl {
+    color: #7A570F;
+}
+
+#product-info .pi-con > .pc-info dl dt {
+    float: left;
+    margin-top: 3px;
+}
+
+#product-info .pi-con > .pc-info dl dd {
+
+}
+
+#product-info .pi-con > .pc-info dl dd ul.option {
+
+}
+
+#product-info .pi-con > .pc-info dl dd ul.option li {
+    float: left;
+    margin-left: 10px;
+}
+
+#product-info .pi-con > .pc-info dl dd ul.option li a {
+    padding: 3px 14px;
+    border: 1px solid #7A570F;
+    color: #7A570F;
+}
+
+#product-info .pi-con > .pc-info dl dd ul.option li.selected a {
+    border: 1px solid #A454B9;
+    background: #A454B9;
+    color: #fff;
+}
+
+#product-info .pi-con > .pc-entrance {
+    /*float: left;*/
+    /*width:270px;*/
+}
+
+#product-info dl {
+    margin-bottom: 30px;
+}
+
+#product-info dl dd .td-inner {
+
+}
+
+#product-info dl dd .td-inner .amount-wrapper {
+
+}
+
+#product-info dl dd .td-inner .amount-wrapper .item-amount {
+    height: 25px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    width: 77px;
+    left: 10px;
+}
+
+#product-info dl dd .td-inner .amount-wrapper .item-amount > a {
+    display: block;
+    height: 23px;
+    width: 17px;
+    border: 1px solid #DCC9B0;
+    background: #FDF2DC;
+    text-align: center;
+    line-height: 23px;
+    color: #444;
+    position: absolute;
+    top: 0;
+}
+
+#product-info dl dd .td-inner .amount-wrapper .item-amount .amount-sub {
+    border-right-color: transparent;
+    left: 0;
+}
+
+#product-info dl dd .td-inner .amount-wrapper .item-amount .text-amount {
+    width: 43px;
+    height: 23px;
+    line-height: 15px;
+    border: 1px solid #aaa;
+    color: #343434;
+    text-align: center;
+    padding: 4px 0;
+    background-color: #fff;
+    position: absolute;
+    z-index: 2;
+    left: 17px;
+    top: 0;
+    float: left;
+}
+
+#product-info dl dd .td-inner .amount-wrapper .item-amount .amount-add {
+    border-left-color: transparent;
+    right: 0;
+}
+
+#product-info .sc-footer {
+    background-color: #FFF0DB;
+    padding: 35px 25px;
+}
+
+#product-detail {
+    margin-top: 20px;
+    border: 1px solid #A56E2B;
+    margin-bottom: 35px;
+}
+
+#product-detail .d-nav {
+
+}
+
+#product-detail .d-nav ul {
+    background-color: #FDF2DC;
+    margin-bottom: 0;
+
+}
+
+#product-detail .d-nav ul li {
+    float: left;
+    width: 180px;
+    text-align: center;
+}
+
+#product-detail .d-nav ul li.selected a {
+    background-color: #A56E2B;
+    color: #fff;
+}
+
+#product-detail .d-nav ul li a {
+    color: #A56E2D;
+    background-color: #FDF2DC;
+    padding: 15px 0;
+    cursor:pointer;
+}
+
+#product-description {
+    background: #fff;
+    text-align: center;
+    padding: 45px;
+    /*display: none;*/
+}
+
+/*#product-description img {*/
+    /*width: 1110px;*/
+    /*height: 798px;*/
+/*}*/
+
+#product-description p {
+    text-align: left;
+    margin-top: 20px;
+    color: #734D03;
+}
+
+#product-review {
+    background: #fff;
+    padding: 45px;
+    display: none;
+}
+
+#product-review .review-head {
+
+
+}
+
+#product-review .review-body {
+    margin-top: 35px;
+    position:relative;
+}
+#product-review .review-body .rb-item{
+    padding-top: 35px;
+    border-top: 1px solid #8320A8;
+    margin-bottom:35px;
+}
+
+
+#product-review .review-body .img-view img{
+    width: 96px;
+    height: 97px;
+}
+#product-review .review-body .user-portrait{
+    text-align: center;
+    position:absolute;
+    left:-5px;
+}
+#product-review .review-body .user-portrait img{
+    width:80px;
+    height:80px;
+}
+
+#goods-attr li {
+    cursor: pointer;
+}
+
+.heart-selected {
+    position: absolute;
+    background: url(../images/hollow.png) no-repeat;
+    width: 20px;
+    height: 18px;
+    cursor: pointer;
+}
+
+.heart-solid {
+    position: absolute;
+    background: url(../images/solid.png) no-repeat;
+    width: 20px;
+    height: 18px;
+    cursor: pointer;
+}

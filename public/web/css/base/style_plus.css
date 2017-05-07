@@ -1,0 +1,30 @@
+.err-msg {
+    display: block;
+    font-size: 12px;
+    text-align: left;
+    color: #FF4949;
+}
+
+.merchant-image, .merchant-image img {
+    width: 80px;
+    height: 80px;
+}
+
+.merchant-image {
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.goods-list-empty{
+    height: 200px;
+    background-color: #FFFFFF;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.goods-list-empty p {
+    font-size: 22px;
+    line-height: 200px;
+    text-align: center;
+}

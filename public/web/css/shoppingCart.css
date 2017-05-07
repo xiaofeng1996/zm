@@ -1,0 +1,132 @@
+#shopping-cart {
+    border:1.5px solid #A56E2B;
+}
+
+#shopping-cart .sc-head {
+    background-color:#FFF0DB;
+    padding:10px 25px;
+    text-align: center;
+}
+#shopping-cart .sc-con {
+    background: #fff;
+    padding:15px 25px;
+    padding-top:0px;
+
+}
+#shopping-cart .sc-con .con-f{
+    border-bottom: 1px dashed #A56E2B;
+    padding-bottom: 15px;
+    margin-bottom: 17px;
+    margin-top:17px;
+}
+#shopping-cart .sc-con .con-c{
+    text-align: center;
+}
+#shopping-cart .sc-con .con-c img{
+    width:98px;
+    height:84px;
+}
+#shopping-cart .td-amount{
+    /*width: 120px;*/
+    /*min-height: 119px;*/
+ }
+#shopping-cart .td-amount .td-inner{
+
+ }
+#shopping-cart .td-amount .td-inner .amount-wrapper{
+
+}
+#shopping-cart .td-amount .td-inner .amount-wrapper .item-amount{
+    height: 25px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    width: 77px;
+    margin: 0 auto;
+}
+#shopping-cart .td-amount .td-inner .amount-wrapper .item-amount > a{
+    display: block;
+    height: 23px;
+    width: 17px;
+    border: 1px solid #DCC9B0;
+    background: #FDF2DC;
+    text-align: center;
+    line-height: 23px;
+    color: #444;
+    position: absolute;
+    top: 0;
+}
+#shopping-cart .td-amount .td-inner .amount-wrapper .item-amount .amount-sub{
+    border-right-color: transparent;
+    left: 0;
+}
+#shopping-cart .td-amount .td-inner .amount-wrapper .item-amount .text-amount{
+    width: 43px;
+    height: 23px;
+    line-height: 15px;
+    border: 1px solid #aaa;
+    color: #343434;
+    text-align: center;
+    padding: 4px 0;
+    background-color: #fff;
+    position: absolute;
+    z-index: 2;
+    left: 17px;
+    top: 0;
+    float: left;
+}
+#shopping-cart .td-amount .td-inner .amount-wrapper .item-amount .amount-add{
+    border-left-color: transparent;
+    right: 0;
+}
+#shopping-cart .sc-footer {
+    background-color:#FFF0DB;
+    padding:35px 25px;
+}
+#settle{
+    background-size: 159px 34px;
+    background: url(../images/gradient_purple.png);
+    color: white;
+    position: relative;
+    padding: 7px 35px;
+}
+#payDialog .pay-item{
+    border: 1px solid #DCC9B0;
+    margin-bottom: 27px;
+    padding: 18px 0;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#payDialog .pay-item .pay-radio{
+    width: 20px;
+    height: 20px;
+    border: 1px solid #BBBBBB;
+    border-radius: 50%;
+    position:relative;
+    display:inline-block;
+    cursor:pointer;
+    margin-left: 15px;
+    /*margin-top: 6px;*/
+    /*margin-bottom: 0px;*/
+}
+#payDialog .pay-item .pay-radio.on{
+    border: 1px solid #8320A8;
+    border-radius: 50%;
+}
+#payDialog .pay-item .pay-radio .pip{
+
+}
+#payDialog .pay-item .pay-radio.on .pip{
+    width: 10px;
+    height: 10px;
+    background: #8320A8;
+    display: block;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 4px;
+}
+#payDialog .pay-item input[type="radio"]{
+    position: absolute;
+    left: -9999px;
+}
+

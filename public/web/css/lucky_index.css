@@ -1,0 +1,240 @@
+
+body{
+
+}
+
+#product-featured{
+
+}
+#product-featured .col-xs-3{
+    width:20%;
+}
+#product-featured .pf-title{
+    background: url(../images/luck_bg.png) no-repeat;
+    background-size: contain;
+    height: 60px;
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+#product-featured .pf-viptitle{
+    background: url(../images/vip_bg.png) no-repeat;
+    background-size: contain;
+    height: 60px;
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+#product-featured .pf-con{
+    background-color:#A56E2B;
+    padding: 18px 20px;
+}
+
+#product-featured .pf-row{
+    height:300px;
+}
+#product-featured .pf-row .pf-col{
+    padding:0;
+    height:320px;
+    background-color:#fff;
+    border-left:1px solid #A307CD;
+    border-top: 1px solid #A307CD;
+}
+#product-featured .pf-row .pf-col .pc-wrap{
+    position: relative;
+    padding:8px;
+}
+#product-featured .pc-wrap .pc-img{
+    position:relative;
+}
+#product-featured .pc-wrap .pc-img .heart-solid{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: url(../images/solid.png) no-repeat;
+    width: 20px;
+    height: 18px;
+}
+#product-featured .pc-wrap .pc-img .heart-selected{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: url(../images/hollow.png) no-repeat;
+    width: 20px;
+    height: 18px;
+}
+#product-featured .pc-wrap .pc-img .pc-info{
+    position:absolute;
+    bottom:0;
+    left:0;
+    right:0;
+
+    background: rgba(255,255,255,0.7);
+
+}
+#product-featured .pc-wrap .pc-img img{
+    display: block;
+    width: 100%;
+}
+#product-featured .pc-wrap .pc-title{
+    color: #A56E2B;
+    font-size: 14px;
+    margin-top: 9px;
+}
+#product-featured .pc-wrap .pc-price{
+    color: #A307CD;
+    font-size: 21px;
+}
+#product-featured .pc-wrap .btn-wrap{
+    padding-left: 12px;
+}
+#product-featured .pc-wrap .add-s-cart{
+    background:url("../images/purple_btn_bg.png");
+    background-size:contain;
+    color:#fff;
+    padding: 5px;
+}
+#product-featured .pc-wrap .add-heart{
+    background:url("../images/brown_btn_bg.png");
+    background-size:contain;
+    width:51px;
+    height:31px;
+    margin-left: 5px;
+    line-height: 27px;
+}
+
+#banner{
+    position:relative;
+}
+#banner .banner-info{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background-color: rgba(0,0,0,0.45);
+    color: #fff;
+    padding: 5px 0 5px 36px;
+}
+
+
+.icon-heart-selected{
+    background-image: url("../images/heart_seleted.png");
+    width:26px;
+    height:24px;
+}
+.icon-heart{
+    background-image: url("../images/heart.png");
+    width:26px;
+    height:24px;
+}
+
+/*-------------------图标——----------------*/
+.icon-order{
+    background: url("../images/order_goods.png") no-repeat;
+    width:36px;
+    height:36px;
+}
+.icon-exchange{
+    background:url("../images/exchange_record.png") no-repeat;
+    width:36px;
+    height:36px;
+}
+.icon-winning{
+    background:url("../images/winning_record.png")no-repeat;
+    width:36px;
+    height:36px;
+}
+.icon-integral{
+    background:url("../images/integral.png") no-repeat;
+    width:14px;
+    height:12px;
+}
+.icon-description{
+    background:url("../images/description.png")no-repeat;
+    width:14px;
+    height:12px;
+}
+.icon-scart{
+    background:url("../images/scart.png")no-repeat;
+    width:34px;
+    height:34px;
+}
+
+
+.lucky-title{
+    position:relative;
+    background: url(../images/lucky_title.jpg) no-repeat;
+    background-size: 100% 100%;
+    height: 60px;
+    margin-top: 15px;
+}
+
+#ruleTip{
+    float:right;
+    line-height:60px;
+    text-decoration: underline;
+    margin-right: 60px;
+    color:#724C01;
+    outline: none;
+    cursor:pointer;
+}
+.lucky-tip{
+    position: absolute;
+    right: 0px;
+    top: 73px;
+    z-index: 9999;
+    width: 550px;
+    background: #fff;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: left;
+    white-space: normal;
+    color:#554731;
+}
+
+.lucky-tip .arrow,.lucky-tip .arrow:after{
+    position: absolute;
+    display: block;
+    width: 0px;
+    height: 0px;
+    border-color: transparent;
+    border-style: solid;
+}
+.lucky-tip .arrow{
+    top: -13px;
+    left: 84%;
+    margin-left: -14px;
+    border-bottom-color: #999;
+    border-width: 14px;
+    border-top-width: 0px;
+
+}
+
+.lucky-tip .arrow:after{
+    top: 1px;
+    margin-left: -13px;
+    content: " ";
+    border-bottom-color: #fff;
+    border-width: 13px;
+    border-top-width: 0px;
+}
+
+.lucky-tip .lucky-tip-title{
+    padding: 10px 14px;
+    margin: 0;
+    font-size: 14px;
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #ebebeb;
+    border-radius: 5px 5px 0 0;
+    border:1px solid #999;
+    border-bottom:0;
+}
+
+.lucky-tip .lucky-tip-content{
+    padding: 10px 18px;
+    border:1px solid #999;
+    border-top:0;
+    color:#554731;
+    padding-bottom: 25px;
+}

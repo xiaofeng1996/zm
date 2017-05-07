@@ -1,0 +1,64 @@
+.lottery-header{
+    background: url("../images/screen.png") no-repeat;
+    width: 100%;
+    height: 631px;
+    background-size: 100% 631px;
+    position: relative;
+    padding-top: 138px;
+}
+
+.band-aid{
+    width: 420px;
+    background: #FEEAA1;
+    padding: 0px 10px;
+    height: 70px;
+    text-align: center;
+    border-radius: 34px;
+    margin:0 auto;
+}
+.band-aid .band-aid-wrap{
+    position:relative;
+    top:6px;
+    color:#714D00;
+    border:2px dotted #F5AB28;
+    height:55.6px;
+    border-radius: 34px;
+    padding-top:7px;
+}
+.lottery-panel{
+    width:470px;
+    height:210px;
+    background:#fff;
+    border-radius: 8px;
+    margin:0 auto;
+    margin-top:50px;
+    padding-top:60px;
+
+}
+.lottery-panel .lottery-panel-con{
+    width:200px;
+    margin:0 auto;
+    text-align: center;
+
+}
+.lottery-panel .lottery-panel-title{
+    border-bottom: 2px solid #D091C6;
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color:#714D00;
+    margin-bottom: 5px;
+}
+.lottery-body{
+    margin-top:40px;
+}
+
+.lottery-body .line{
+    width: 44px;
+    border-top: 1px solid #714D00;
+    height: 1px;
+    display: inline-block;
+    position: relative;
+    top: -3px;
+    margin:0 5px;
+}
